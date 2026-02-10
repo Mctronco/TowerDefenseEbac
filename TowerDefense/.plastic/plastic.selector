@@ -1,4 +1,3 @@
 repository "TowerDefense/TowerDefense@4673217044693@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"
