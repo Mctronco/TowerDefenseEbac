@@ -10,6 +10,16 @@ public class Boss : MonoBehaviour
 
     public Animator Anim;
 
+    private void OnEnable()
+    {
+        objetivo = GameObject.Find("Objetivo");
+    }
+
+    private void OnDisable()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +39,7 @@ public class Boss : MonoBehaviour
         {
             Anim.SetBool("IsMoving", false);
             Anim.SetTrigger("OnObjetiveReached");
+            this.GetComponent<Rigidbody>().isKinematic = true;
         }
     }
 

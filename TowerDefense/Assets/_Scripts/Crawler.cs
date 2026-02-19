@@ -10,6 +10,16 @@ public class Crawler : MonoBehaviour
 
     public Animator Anim;
 
+    private void OnEnable()
+    {
+        objetivo = GameObject.Find("Objetivo");
+    }
+
+    private void OnDisable()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,11 +39,12 @@ public class Crawler : MonoBehaviour
         {
             Anim.SetBool("IsMoving", false);
             Anim.SetTrigger("OnObjetiveReached");
+            this.GetComponent<Rigidbody>().isKinematic = true;
         }
     }
     public void Danar()
     {
-        objetivo?.GetComponent<Objetivo>().RecibirDano(10);
+        objetivo?.GetComponent<Objetivo>().RecibirDano(5);
     }
 
     public void RecibirDano(int dano = 5)
