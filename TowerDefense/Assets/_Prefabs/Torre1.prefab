@@ -114,6 +114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3316551091342695232}
+  - component: {fileID: 7270422273154187386}
   m_Layer: 0
   m_Name: Torre1
   m_TagString: Untagged
@@ -139,6 +140,22 @@ Transform:
   - {fileID: 6790358055139767105}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7270422273154187386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372530833873881975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 843fd971be782e441bb82691175aed67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigo: {fileID: 0}
+  prefabBala: {fileID: 1947552486060693010, guid: c7aba54847a5eed4995286c4f67349b9, type: 3}
+  puntasCanon:
+  - {fileID: 5175974178838204590}
 --- !u!1 &1575468031570546248
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +190,7 @@ Transform:
   m_Children:
   - {fileID: 2718799577187720828}
   - {fileID: 274400219608764402}
+  - {fileID: 8637944438031395216}
   m_Father: {fileID: 3316551091342695232}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7065713436359130024
@@ -458,6 +476,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &5175974178838204590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8637944438031395216}
+  m_Layer: 0
+  m_Name: PuntaCanon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8637944438031395216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5175974178838204590}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.24856856, z: -0, w: 0.96861434}
+  m_LocalPosition: {x: 0.014285712, y: 1.5, z: 3.8}
+  m_LocalScale: {x: 1.7598215, y: 1, z: 1.2629466}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6790358055139767105}
+  m_LocalEulerAnglesHint: {x: -118.785995, y: -90, z: 90}
 --- !u!1 &8183318174393086574
 GameObject:
   m_ObjectHideFlags: 0
