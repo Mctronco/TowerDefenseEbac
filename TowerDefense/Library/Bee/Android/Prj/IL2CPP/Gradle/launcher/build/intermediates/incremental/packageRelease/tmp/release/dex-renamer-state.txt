@@ -1,0 +1,4 @@
+#Sun Mar 08 22:41:56 CST 2026
+base.0=D\:\\Repositorio2\\TowerDefenseEbac\\TowerDefense\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

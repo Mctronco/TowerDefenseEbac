@@ -1,0 +1,19 @@
+<dependencies>
+  <compile
+      roots="D:\Repositorio2\TowerDefenseEbac\TowerDefense\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="D:\Repositorio2\TowerDefenseEbac\TowerDefense\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="D:\Repositorio2\TowerDefenseEbac\TowerDefense\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:D:\Repositorio2\TowerDefenseEbac\TowerDefense\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,D:\Repositorio2\TowerDefenseEbac\TowerDefense\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:GooglePlayGamesManifest.androidlib::release">
+    <dependency
+        name="D:\Repositorio2\TowerDefenseEbac\TowerDefense\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:D:\Repositorio2\TowerDefenseEbac\TowerDefense\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name="D:\Repositorio2\TowerDefenseEbac\TowerDefense\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:GooglePlayGamesManifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:GooglePlayGamesManifest.androidlib"/>
+  </package>
+</dependencies>
